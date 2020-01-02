@@ -29,8 +29,8 @@ int main()
   total = hotel + meal;
 
   //display
-  std::cout << "Location  " << " Days   " << "Hotel  "<< "Meal " << "Total" << std::endl;
-  std::cout <<  location <<    '\t'<< days << '\t' << "$" << hotel << '\t' <<  "$" << meal << '\t' << "$" << total  << std::endl;
+  std::cout << std::setprecision(2) << "Location  " << " Days   " << "Hotel  "<< "Meal " << "Total" << std::endl;
+  std::cout << std::setprecision(2) <<  location <<  '\t'<< days << '\t' << "$" << hotel << '\t' <<  "$" << meal << '\t' << "$" << total  << std::endl;
 
   return 0;
 }
