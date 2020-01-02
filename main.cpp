@@ -30,7 +30,7 @@ int main()
 
   //display
   std::cout << std::setprecision(2) << "Location  " << " Days   " << "Hotel  "<< "Meal " << "Total" << std::endl;
-  std::cout << std::setprecision(2) <<  location <<  '\t'<< days << '\t' << "$" << hotel << '\t' <<  "$" << meal << '\t' << "$" << total  << std::endl;
+  std::cout << std::setprecision(2) <<  location.substr(0,20) <<  '\t'<< days << '\t' << std::fixed << "$" << hotel << '\t' <<  "$" << meal << '\t' << "$" << total  << std::endl;
 
   return 0;
 }
